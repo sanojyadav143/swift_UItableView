@@ -1,0 +1,27 @@
+TableView Datasource methods -:
+
+(1) number of sections in tableView
+
+   func numberOfSections(in tableView: UITableView) -> Int {
+        <#code#>
+    }
+
+    
+(2) number of rows in section
+
+   func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        <#code#>
+    }
+
+
+(3) cell for row at indexpath
+
+   func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        <#code#>
+    }
+
+ 
+
+
+
+
