@@ -22,10 +22,23 @@ TableView Datasource methods -:
 
 
 
-//Commeted by Pankaj
+// Commit by Sanoj
 
  
+Collection View Datasource methods -:
 
+(1) number of Items in section
 
+    func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
+        <#code#>
+    }
+    
+    
+    
+(2) cell for row at indexpath
+
+    func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
+        <#code#>
+    }
 
 
